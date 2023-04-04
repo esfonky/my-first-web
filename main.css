@@ -1,0 +1,36 @@
+li {
+  font-size: large;
+  font-weight: bold;
+}
+
+p {
+  font-size: large;
+}
+
+h3 {
+  font-size: x-large;
+}
+
+#name_tag {
+  font-size: x-large;
+  color: blueviolet;
+}
+
+.img {
+  width: 300px;
+}
+
+.logo {
+  width: 200px;
+}
+
+#club {
+  text-decoration: wavy;
+  font-size: xx-large;
+  color: blue;
+}
+
+#highlight {
+  color: rgb(51, 51, 195);
+  font-weight: bold;
+}
