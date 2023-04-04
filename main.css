@@ -34,3 +34,38 @@ h3 {
   color: rgb(51, 51, 195);
   font-weight: bold;
 }
+
+#grid {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+
+.title {
+  border-bottom: 1px solid gray;
+  padding: 10px;
+  margin: 0px;
+  padding: 20px;
+}
+
+.list {
+  border-right: 1px solid gray;
+  width: 100px;
+  margin: 0px;
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  #grid{
+    display: block;
+  }
+  .list{
+    border-right: none;
+  }
+  .title{
+    border-bottom: none;
+  }
+
+}
+
+
+
