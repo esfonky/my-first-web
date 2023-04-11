@@ -3,10 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <title>동아리소개</title>
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <h1 class="title"><a href="index.html">현우HOME</a></h1>
+    <div class="title">
+      <h1><a href="index.html">현우HOME</a></h1>
+      <div class="colorbtn">
+        <input
+          type="button"
+          value="Dark"
+          onclick="
+      document.querySelector('body').style.backgroundColor = '#222222';
+      document.querySelector('body').style.color = '#eeeeee';
+    "
+        />
+        <input
+          type="button"
+          value="Light"
+          onclick="
+    document.querySelector('body').style.backgroundColor = '#eeeeee';
+    document.querySelector('body').style.color = '#222222'; "
+        />
+      </div>
+    </div>
     <div id="grid">
       <ol class="list">
         <li><a href="자기소개.html">자기소개</a></li>
